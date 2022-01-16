@@ -247,14 +247,14 @@ body {
   }
   
   .candidatos .candidato--vereador, .candidatos .candidato--prefeito {
-    font-size: medium;
+    font-size: 20px;
     -webkit-box-flex: 50%;
         -ms-flex: 50%;
             flex: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
+    display: flexbox;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;

@@ -4,16 +4,18 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: '15211',
-                nome: 'Fulano de Tal',
-                partido: 'Mansos',
+                numero: '12345',
+                nome: 'Hashira Rengoku.',
+                suplente: 'Inosuke Hashibira.',
+                partido: 'Fogo ardente',
                 fotos: [
                     { url: 'DemonSlayer-2.jpg', legenda: 'Vereador' }
                 ]
             },
             {
-                numero: '33232',
-                nome: 'Beltrano da Silva',
+                numero: '67890',
+                nome: 'Ikki de Fênix.',
+                suplente: 'Shiryu de Dragão.',
                 partido: 'Brabos',
                 fotos: [
                     { url: 'fenix.jpg', legenda: 'Vereador' }
@@ -27,9 +29,9 @@ let etapas = [
         candidatos: [
             {
                 numero: '51',
-                nome: 'Vegeta',
-                partido: 'Brabos',
-                vice: 'Guts',
+                nome: 'Vegeta IV.',
+                partido: 'Sangue nos zói',
+                vice: 'Capitão Guts.',
                 fotos: [
                     { url: 'vegeta.jpg', legenda: 'Prefeito' },
                     { url: 'GutsBerserk.png', legenda: 'Vice-Prefeito', small: true }
@@ -37,9 +39,9 @@ let etapas = [
             },
             {
                 numero: '84',
-                nome: 'Goku',
+                nome: 'Son Goku.',
                 partido: 'Mansos',
-                vice: 'Rengoku',
+                vice: 'Tanjiro Kamado.',
                 fotos: [
                     { url: 'goku.jpg', legenda: 'Prefeito' },
                     { url: 'demonSlayer.jpg', legenda: 'Vice-Prefeito', small: true }

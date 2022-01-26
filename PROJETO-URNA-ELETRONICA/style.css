@@ -117,8 +117,8 @@ body {
 
 .numero {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #000;
     padding-top: 15px;
     text-align: center;
@@ -185,13 +185,6 @@ body {
     align-items: center;
 }
 
-.container {
-    background-color: rgb(218, 102, 102);
-    display: grid;
-    grid-template-areas: repeat(2, 200px);
-    -ms-grid-column-align: 10px;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -208,7 +201,7 @@ body {
   .container {
     width: 50%;
     margin: 2rem auto;
-    background-color: #98989baf;
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

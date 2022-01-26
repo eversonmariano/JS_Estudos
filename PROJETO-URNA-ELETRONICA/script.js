@@ -50,22 +50,22 @@ function atualizaInterface() {
         seuVotoPara.style.display = 'block';
         aviso.style.display = 'block';
         if(numero.length > 3 ){
-            descricao.innerHTML = `Nome: ${candidato.nome}<br/><br/>Suplente: ${candidato.suplente}<br/><br/>Partido: ${candidato.partido}`;
+            descricao.innerHTML = `<br/>Nome: ${candidato.nome}<br/><br/>Suplente: ${candidato.suplente}<br/><br/>Partido: ${candidato.partido}`;
         }else{
-            descricao.innerHTML = `Nome: ${candidato.nome}<br/><br/>Vice: ${candidato.vice}<br/><br/>Partido: ${candidato.partido}`;    
+            descricao.innerHTML = `<br/>Nome: ${candidato.nome}<br/><br/>Vice: ${candidato.vice}<br/><br/>Partido: ${candidato.partido}`;    
         }
         
 
         let fotosHTML = '';
         for (let i in candidato.fotos) {
-            fotosHTML += `<div class="d-1-image"><img src="images/${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
+            fotosHTML += `<div class="d-1-image"><img src="${candidato.fotos[i].url}" alt="" />${candidato.fotos[i].legenda}</div>`;
         }
 
         lateral.innerHTML = fotosHTML;
     } else {
         seuVotoPara.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>';
+        descricao.innerHTML = '<div class="aviso--grande pisca"><br/><br/>VOTO NULO</div>';
 
     }
 
